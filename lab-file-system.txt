@@ -53,7 +53,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals	food
 
 
 ==========
@@ -64,7 +64,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals	foo	food
 
 
 ==========
@@ -75,7 +75,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/student/mtec1002/foo/bar/baz/qux
 
 
 ==========
@@ -86,7 +86,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/student/mtec1002/foo/bar
 
 
 ==========
@@ -97,7 +97,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/student/mtec1002/foo/bar/baz/qux
 
  
 ==========
@@ -108,7 +108,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/student/mtec1002
 
 
 ==========
@@ -120,6 +120,8 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
+total 0
+drwxr-xr-x  3 student  staff  102 Jan 29 16:49 foo
 
 
 
@@ -131,7 +133,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Users/student
 
 
 ==========
@@ -142,7 +144,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Volumes
 
 
 ==========
@@ -153,7 +155,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Volumes
 
 
 ==========
@@ -164,7 +166,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Users/student/mtec1002
 
 
 ==========
@@ -174,13 +176,14 @@ $ hostname
 
 Copy and paste the output into the space below.
 ----------
-
+ent-v314-002.local
 
 
 ==========
 17a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
-
+cd ~/mtec1002
+pwd
 
 
 ==========
@@ -203,7 +206,7 @@ lemon
 
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
-
+mkdir -p pineapple/orange/strawbery/lemon<Enter>
 
 
 ==========
@@ -211,7 +214,7 @@ Use only one command to make all of these new directories.  Write what command y
 
 Write the command you used to create the directory below:
 ----------
-
+mkdir aardvark
 
 
 ==========
